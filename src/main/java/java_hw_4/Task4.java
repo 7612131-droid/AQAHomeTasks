@@ -9,15 +9,15 @@ public class Task4 {
         String[] array2 = {"Петя", "Маша", "Олена", "Федя", "Саша", "Антон", "Гліб"};
         String[] array3 = {"школи", "магазину", "церкви", "тренажерного залу", "кіно", "поліклініки"};
 
-        System.out.println("Введіть перше значення від 0-4");
+        System.out.println("Enter the first value between 0-4");
 
         int a = scanner.nextInt();
 
-        System.out.println("Введіть друге значення від 0-6");
+        System.out.println("Enter the second value between 0-6");
 
         int b = scanner.nextInt();
 
-        System.out.println("Введіть третє значення від 0-5");
+        System.out.println("Enter the third value between 0-5");
 
         int с = scanner.nextInt();
 

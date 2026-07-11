@@ -6,28 +6,28 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Яка загальна вага металу має бути на складі?");
+        System.out.println("What should be the total weight of the metal in the storage?");
         Integer generalWeight = scanner.nextInt();
 
         Integer freeSpace = generalWeight;
 
 
         while (freeSpace > 0) {
-            System.out.println("Склад може прийняти ще: " + freeSpace + " кг");
-            System.out.println("Яку вагу металу Ви хочете здати на склад?");
+            System.out.println("Storage can get else: " + freeSpace + "kg");
+            System.out.println("What weight of metal do you want to turn in to the storage?");
             Integer weightPassed = scanner.nextInt();
 
             if (weightPassed < 5) {
-                System.out.println("Ви не можете здати таку малу кількість металу на склад, треба не меньше 5 кг");
+                System.out.println("You cannot turn in such a small amount of metal at the storage, you need at least 5 kg.");
 
             } else if (weightPassed > freeSpace){
-                System.out.println("Неможливо прийняти метал. На складі залишилось місця тільки: " + freeSpace + " кг");
+                System.out.println("It is impossible to accept the metal. There is only enough space left in the storage: " + freeSpace + " kg");
             } else{
                 freeSpace = freeSpace - weightPassed;
-                System.out.println("Метал прийнято.");
+                System.out.println("Metal accepted.");
             }
 
         }
-        System.out.println("Склад заповнений. Прийом металу завершено.");
+        System.out.println("Storage is full. Metal intake is complete.");
     }
 }

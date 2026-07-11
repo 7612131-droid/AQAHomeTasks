@@ -14,7 +14,7 @@ public class Task5 {
             array[i] = random.nextInt(20) + 1;
              }
 
-        System.out.println("Введіть число:");
+        System.out.println("Enter number:");
         int userNumber = scanner.nextInt();
 
         boolean found = false;
@@ -27,9 +27,9 @@ public class Task5 {
         }
 
         if (found) {
-                System.out.println("Таке число є в масиві.");
+                System.out.println("Such a number exists in the array.");
             } else {
-                System.out.println("Такого числа немає в масиві.");
+                System.out.println("This number is not in the array.");
             }
 
         }
