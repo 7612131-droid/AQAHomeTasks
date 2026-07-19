@@ -36,4 +36,11 @@ public class Vehicle {
                 '}';
     }
 
+    public void move() {
+        System.out.println("The vehicle" + " "+ getName()+" "+ "is moving with a speed of" + " " + getSpeed()+ " "+ "km/h");
+    }
+
+    public void stop() {
+        System.out.println("The vehicle"+ " "+ getName()+ " "+ "is stopped");
+    }
 }

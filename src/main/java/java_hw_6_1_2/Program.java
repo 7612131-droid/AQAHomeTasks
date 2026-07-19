@@ -8,5 +8,7 @@ public class Program {
 
         car.move();
         truck.move();
+        car.stop();
+        truck.stop();
     }
 }

@@ -22,8 +22,9 @@ public class Truck extends Vehicle {
                 "loadCapacity=" + loadCapacity +
                 '}';
     }
-
+@Override
     public void move() {
+        super.move();
         System.out.println("The vehicle" + " " +getName()+ " "+ "with a load capacity of" +" "+ getLoadCapacity()+" " + "is moving at a speed of"
                 + " "+ getSpeed() +" "+ "km/h");
     }

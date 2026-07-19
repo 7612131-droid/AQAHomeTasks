@@ -22,8 +22,9 @@ public class Car extends Vehicle {
                 "passpassengerCapacity=" + passpassengerCapacity +
                 '}';
     }
-
+@Override
     public void move(){
+        super.move();
         System.out.println("The vehicle"+ " "+ getName() +" "+ "moving with a speed of " + " "+ getSpeed() + " "+ "km/h" +" "+
                 "with" + " " + getPasspassengerCapacity() + " " + "people");
     }
