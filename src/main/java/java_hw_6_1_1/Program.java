@@ -1,4 +1,4 @@
-package java_hw_6_1;
+package java_hw_6_1_1;
 
 public class Program {
     public static void main(String[] args) {

@@ -1,13 +1,13 @@
-package java_hw_6_1;
+package java_hw_6_1_1;
 
-public class Bird extends Animal {
+public class Dog extends Animal {
 
-    public Bird(String name) {
+    public Dog(String name) {
         super(name);
     }
 
-    public void fly() {
-        System.out.println("I am flying");
+    public void bark() {
+        System.out.println("ARF ARF");
     }
 
     @Override
