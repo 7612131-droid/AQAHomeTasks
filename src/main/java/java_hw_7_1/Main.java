@@ -1,4 +1,4 @@
-package java_hw_7;
+package java_hw_7_1;
 
 import java.util.List;
 
