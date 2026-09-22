@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1" >
+    <test name="AllTests" >
+        <classes>
+            <class name="aqa_hw_7.Tests1">
+                <methods>
+                    <include name="test2" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

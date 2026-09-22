@@ -29,7 +29,7 @@ public class AppTest
     }
 
     /**
-     * Rigourous Test :-)
+     * Rigourous aqa_hw_7.Test :-)
      */
     public void testApp()
     {
